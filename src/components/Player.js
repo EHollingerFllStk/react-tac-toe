@@ -1,12 +1,12 @@
 import React from 'react'
 
 function Player(props) {
-  return (
-    <div>
-        <h2>Player {props.whichPlayer}</h2>
-        <h3>Wins: </h3>
-    </div>
-  )
+    return (
+        <div className={props.whichPlayer}>
+          <h2>Player {props.whichPlayer} </h2>
+          <h3>Wins: </h3>
+        </div>
+    );
 }
-
-export default Player
+  
+export default Player;

@@ -1,10 +1,9 @@
 import React from 'react'
 import Square from "./Square"
 
-function Board() {
+function Board(props) {
   return (
-    <div>
-        <h1>Board</h1>
+    <div className="board">
         <Square/>
         <Square/>
         <Square/>

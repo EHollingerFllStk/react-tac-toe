@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Square() {
+function Square(props) {
   return (
     <div>
         <h4>Square</h4>
