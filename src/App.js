@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from "./components/Header";
 import Player from "./components/Player"
+import Board from "./components/Board"
+import "./styles.css";
 import './App.css';
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
           <Header/>
           <Player whichPlayer='X'/>
           <Player whichPlayer='O'/>
+          <Board/>
         </div>
   );
 }
